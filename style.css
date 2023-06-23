@@ -20,10 +20,19 @@ body {
     width: 100%;
   }
   
+  
   @media only screen and (max-width:400px){
-   .poster {
-        width: 90%;
-        height:90%;
-    }
+    .poster {
+         width: 100px;
+         height: 100px;
+     }
+ 
+   }
 
-  }
+   @media only screen and (max-width:800px){
+    .motivation-img {
+         width: 100px;
+         height:100px;
+     }
+ 
+   }
